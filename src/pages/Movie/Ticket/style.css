@@ -1,0 +1,30 @@
+.seat {
+    display: inline-block;
+    border: 1px solid;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 0 1px;
+    padding: 1px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.seat-booked {
+    display: inline-block;
+    border: 1px solid;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 0 1px;
+    padding: 1px 0;
+    text-align: center;
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+.checked {
+    background-color: #b11500;
+}
